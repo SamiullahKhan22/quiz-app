@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+p {
+    
+    padding: 2px;
+}
+
+.result {
+    text-align: center;
+}
+#question {
+    background-color: #9FE2BF;
+}

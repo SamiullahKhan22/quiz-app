@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      "https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js";
+    </script>
+    <script>
+      "https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js";
+    </script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Quizz Application</title>
+  </head>
+  <body>
+    <h1>Quiz about javascript?</h1>
+    <div id="question">
+      <fieldset>
+        <p>
+          Which built-in method returns the characters in a string beginning at
+          the specified location?
+        </p>
+        <input id="q1-a1" type="radio" /> substr() <br />
+        <input id="q1-a2" type="radio" /> getSubstring() <br />
+        <input id="q1-a3" type="radio" /> slice() <br />
+        <input id="q1-a3" type="radio" /> None of the above <br />
+      </fieldset>
+    </div>
+    <br />
+    <br />
+    <div id="question">
+      <fieldset>
+        <p>
+          Which of the following function of String object returns the character
+          at the specified index?
+        </p>
+        <input id="q2-a1" type="radio" /> indexOf() <br />
+        <input id="q2-a2" type="radio" /> charCodeAt() <br />
+        <input id="q2-a3" type="radio" /> concat() <br />
+        <input id="q2-a4" type="radio" /> charAt() <br />
+      </fieldset>
+    </div>
+    <br />
+    <br />
+    <div id="question">
+      <fieldset>
+        <p>
+          Which of the following function of String object is used to match a
+          regular expression against a string?
+        </p>
+        <input id="q3-a1" type="radio" /> match() <br />
+        <input id="q3-a2" type="radio" />concat()<br />
+        <input id="q3-a3" type="radio" /> search() <br />
+        <input id="q3-a4" type="radio" /> replace() <br />
+      </fieldset>
+    </div>
+    <br />
+    <br />
+    <!-- <div>
+      <fieldset>
+        <p>
+          Which of the following function of Array object joins all elements of
+          an array into a string?
+        </p>
+        <input id="q4-a1" type="radio" /> concat() <br />
+        <input id="q4-a2" type="radio" /> join() <br />
+        b <input id="q4-a3" type="radio" /> pop() <br />
+        <input id="q4-a4" type="radio" /> map() <br />
+      </fieldset>
+    </div>
+    <br />
+    <br />
+    <div>
+      <fieldset>
+        <p>
+          Which of the following function of String object creates a string to
+          blink as if it were in a blink tag?
+        </p>
+        <input id="q5-a1" type="radio" /> anchor() <br />
+        <input id="q5-a2" type="radio" /> big() <br />
+        <input id="q5-a3" type="radio" /> blink() <br />
+        c <input id="q5-a4" type="radio" /> italics() <br />
+      </fieldset>
+    </div>
+    <br />
+    <br />
+    <div>
+      <fieldset>
+        <p>
+          Which of the following function of Array object represents the source
+          code of an object?
+        </p>
+        <input id="q6-a1" type="radio" /> toSource() <br />
+        <input id="q6-a2" type="radio" /> splice() <br />
+        <input id="q6-a3" type="radio" /> toString() <br />
+        <input id="q6-a4" type="radio" /> unshift() <br />
+      </fieldset>
+    </div>
+    <br />
+    <br />
+    <div>
+      <fieldset>
+        <p>Can you access Cookie using javascript?</p>
+        <input id="q7-a1" type="radio" /> true <br />
+        a <input id="q7-a2" type="radio" /> false <br />
+      </fieldset>
+    </div> -->
+    <button id="result" onclick="check()">Result</button>
+
+    <script src="app.js"></script>
+  </body>
+</html>
